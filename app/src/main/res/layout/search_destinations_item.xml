@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/search_item_imageview_destination"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/search_item_image_destinations">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/search_item_textview_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tokyo"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/source_sans_pro">
+    </TextView>
+
+    <TextView
+        android:id="@+id/search_item_textview_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/search_item_textview_city"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Japan"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp">
+
+    </TextView>
+
+
+</androidx.cardview.widget.CardView>

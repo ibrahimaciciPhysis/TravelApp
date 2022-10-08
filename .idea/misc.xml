@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable-v24/btn_add_background.xml" value="0.1" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable-v24/home_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable-v24/navbar_backgound.xml" value="0.1915" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bottom_sheet.xml" value="0.142" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/detail_background.xml" value="0.1985" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/edittext_border.xml" value="0.2355" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/guide_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_car.xml" value="0.1985" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_guide.xml" value="0.1985" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home_selected.xml" value="0.1675" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_trip_bookmark_icon.xml" value="0.1915" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_trip_selected.xml" value="0.1915" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_trip_trips_icon.xml" value="0.1915" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/rect_radius.xml" value="0.1195" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/search_icon.xml" value="0.12" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/trip_icon.xml" value="0.1675" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_detail.xml" value="0.75" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_guide.xml" value="0.16033755274261605" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_home.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_search.xml" value="0.18" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_trip.xml" value="0.22" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_articles_item.xml" value="0.33" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_categories_item.xml" value="0.33" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_might_item.xml" value="0.38181818181818183" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/home_deals_item.xml" value="0.33" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_attractions_item.xml" value="0.2" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_destinations_item.xml" value="0.33" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/trip_dialog.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/trip_plan_item.xml" value="0.31927083333333334" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/menu/nav_menu.xml" value="0.3203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

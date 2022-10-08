@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp">
+
+    <ImageView
+        android:id="@+id/trip_item_imageview"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/search_item_image_attraction">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/trip_item_textview_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marina Bay"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/source_sans_pro">
+    </TextView>
+
+    <TextView
+        android:id="@+id/trip_item_textview_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/search_item_textview_city"
+        android:fontFamily="@font/source_sans_pro"
+        android:text="Singapore"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="16sp">
+
+    </TextView>
+</androidx.cardview.widget.CardView>

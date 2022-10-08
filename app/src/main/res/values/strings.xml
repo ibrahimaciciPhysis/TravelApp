@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="seeAll"><u>see all</u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context="presentation.search.SearchFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/search_textview_search"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_38sdp"
+        android:text="Search"
+        android:textStyle="bold"
+        android:fontFamily="@font/source_sans_pro"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/search_edittext_where"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/edittext_border"
+        android:hint="Where next?"
+        android:textSize="@dimen/_15sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:textColorHint="@color/hintColor"
+        android:drawableRight="@drawable/ic_search_hint"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintTop_toBottomOf="@id/search_textview_search"
+        app:layout_constraintStart_toStartOf="parent">
+    </EditText>
+
+    <TextView
+        android:id="@+id/search_textview_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOP DESTINATIONS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_edittext_where">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_recyclerview_destinations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_textview_top">
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/search_progress_destinations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/search_recyclerview_destinations"
+            app:layout_constraintEnd_toEndOf="@+id/search_recyclerview_destinations"
+            app:layout_constraintStart_toStartOf="@+id/search_recyclerview_destinations"
+            app:layout_constraintTop_toTopOf="@+id/search_recyclerview_destinations">
+        </ProgressBar>
+
+    <TextView
+        android:id="@+id/search_textview_nearby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEARBY ATTRACTIONS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_recyclerview_destinations">
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_recyclerview_attractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_textview_nearby">
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/search_progress_attractions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/search_recyclerview_attractions"
+            app:layout_constraintEnd_toEndOf="@+id/search_recyclerview_attractions"
+            app:layout_constraintStart_toStartOf="@+id/search_recyclerview_attractions"
+            app:layout_constraintTop_toTopOf="@+id/search_recyclerview_attractions">
+        </ProgressBar>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

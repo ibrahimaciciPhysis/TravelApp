@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context="presentation.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/home_imageview_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/home_imageview_flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-12dp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:src="@drawable/ic_flight"
+            app:layout_constraintBottom_toBottomOf="@id/home_imageview_background"
+            app:layout_constraintStart_toStartOf="@id/home_imageview_background">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/home_textview_flights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="Flights"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/home_imageview_background"
+            app:layout_constraintTop_toTopOf="@id/home_imageview_flight">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/home_imageview_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:src="@drawable/ic_hotel"
+            app:layout_constraintBottom_toBottomOf="@id/home_imageview_background"
+            app:layout_constraintStart_toEndOf="@id/home_imageview_flight">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/home_textview_hotels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_39sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="Hotels"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/home_textview_flights"
+            app:layout_constraintTop_toTopOf="@id/home_imageview_hotel">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/home_imageview_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:src="@drawable/ic_car"
+            app:layout_constraintBottom_toBottomOf="@id/home_imageview_background"
+            app:layout_constraintStart_toEndOf="@id/home_imageview_hotel">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/home_textview_cars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="Cars"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/home_textview_hotels"
+            app:layout_constraintTop_toTopOf="@id/home_imageview_car">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/home_imageview_taxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:src="@drawable/ic_taxi"
+            app:layout_constraintBottom_toBottomOf="@id/home_imageview_background"
+            app:layout_constraintStart_toEndOf="@id/home_imageview_car">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/home_textview_taxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_56sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="Taxi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/home_textview_cars"
+            app:layout_constraintTop_toTopOf="@id/home_imageview_taxi">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_113sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="Where's your\nnext destination?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/home_imageview_background"
+            app:layout_constraintStart_toStartOf="@id/home_imageview_background">
+        </TextView>
+
+        <TextView
+            android:id="@+id/home_textview_deals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="DEALS"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_imageview_background">
+        </TextView>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/home_tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_textview_deals"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/secondary"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabTextColor="#C2C5D6">
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/home_tabLayout">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ProgressBar
+            android:id="@+id/home_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/home_recyclerview"
+            app:layout_constraintEnd_toEndOf="@id/home_recyclerview"
+            app:layout_constraintStart_toStartOf="@id/home_recyclerview"
+            app:layout_constraintTop_toTopOf="@id/home_recyclerview">
+        </ProgressBar>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    tools:context="presentation.detail.DetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/detail_button_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_detail_expand"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageButton>
+
+    <ImageView
+        android:id="@+id/detail_imageview_image"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/detailimage"
+        android:background="@drawable/detail_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/detail_button_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/ic_detail_favourite"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_imageview_image">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/detail_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nusa Pedina"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_imageview_image">
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/detail_button_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:background="@drawable/ic_detail_pin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_textview_title">
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/detail_textview_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bali,"
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintStart_toStartOf="@id/detail_button_pin"
+        app:layout_constraintTop_toBottomOf="@id/detail_textview_title">
+    </TextView>
+
+        <TextView
+            android:id="@+id/detail_textview_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indonesia"
+            android:textColor="@color/black"
+            android:fontFamily="@font/source_sans_pro"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            app:layout_constraintStart_toEndOf="@id/detail_textview_city"
+            app:layout_constraintTop_toBottomOf="@id/detail_textview_title">
+        </TextView>
+
+    <TextView
+        android:id="@+id/detail_textview_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est vel odio elementum non id venenatis, elementum. Enim augue velit tristique eu viverra. Massa."
+        android:textColor="@color/black"
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_button_pin">
+    </TextView>
+
+    <Button
+        android:id="@+id/detail_button_add_bookmark"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:text="Add Bookmark"
+        android:fontFamily="@font/source_sans_pro"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detail_textview_description">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
