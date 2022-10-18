@@ -33,6 +33,7 @@
         android:layout_height="@dimen/_35sdp"
         android:background="@drawable/edittext_border"
         android:hint="Where next?"
+        android:textColor="@color/black"
         android:textSize="@dimen/_15sdp"
         android:paddingStart="@dimen/_10sdp"
         android:paddingEnd="@dimen/_10sdp"
@@ -116,7 +117,16 @@
             app:layout_constraintTop_toTopOf="@+id/search_recyclerview_attractions">
         </ProgressBar>
 
-
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_recyclerview_search"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_edittext_where">
+        </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

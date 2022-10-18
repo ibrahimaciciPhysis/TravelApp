@@ -21,7 +21,7 @@
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/search_icon.xml" value="0.12" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/trip_icon.xml" value="0.1675" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_detail.xml" value="0.75" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_detail.xml" value="0.15" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_guide.xml" value="0.16033755274261605" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_home.xml" value="0.22777777777777777" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_search.xml" value="0.18" />
@@ -32,6 +32,7 @@
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/home_deals_item.xml" value="0.33" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_attractions_item.xml" value="0.2" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_destinations_item.xml" value="0.33" />
+        <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_item.xml" value="0.14" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/trip_dialog.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/layout/trip_plan_item.xml" value="0.31927083333333334" />
         <entry key="..\:/Users/ibrah/AndroidStudioProjects/TravelApp/app/src/main/res/menu/nav_menu.xml" value="0.3203125" />

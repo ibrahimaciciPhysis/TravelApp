@@ -29,6 +29,7 @@
         android:id="@+id/detail_imageview_image"
         android:layout_width="match_parent"
         android:layout_height="450dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/detailimage"
         android:background="@drawable/detail_background"
         app:layout_constraintEnd_toEndOf="parent"
